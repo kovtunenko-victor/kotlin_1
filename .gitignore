@@ -1,0 +1,47 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.idea/
+*.iml
+*.iws
+
+*.log
+maven-archiver*
+target/
+
+#flattened POMs
+.flattened-pom.xml
+
+# gnupg keyring
+/.gnupg
+
+.gradle
+build/
+/src/main/generated
+/activemq-data
+!gradle/wrapper/gradle-wrapper.jar
+**/.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.ipr
+out/
+mail/resources/application-local.*
+*log*
+allure-results/
+*.env
+/src/main/resources/baseReport.jrxml
+/src/main/resources/projectReport.jrxml
+
+### jacoco ###
+jacocoXml.xml
